@@ -29,11 +29,17 @@
                                 <rect key="frame" x="155" y="372" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Answer A"/>
+                                <connections>
+                                    <action selector="answerA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jre-2a-ayL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wlz-xr-dAU">
                                 <rect key="frame" x="155" y="410" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Answer B"/>
+                                <connections>
+                                    <action selector="answerB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRc-iF-nwI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var questionLabel: UILabel!
     
     var questions = ["question 1" : "a",
                      "question 2" : "a",
@@ -31,7 +32,11 @@ class ViewController: UIViewController {
     }
     
     
-
-
+    @IBAction func answerA(_ sender: UIButton) {
+    }
+    
+    @IBAction func answerB(_ sender: UIButton) {
+    }
+    
 }
 
