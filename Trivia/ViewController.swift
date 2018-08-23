@@ -11,19 +11,22 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     
-    var questions = ["question 1" : "a",
-                     "question 2" : "a",
-                     "question 3" : "a",
-                     "question 4": "a",
-                     "question 5": "a",
-                     "question 6": "a",
-                     "question 7": "a",
-                     "question 8": "a",
-                     ]
+    var questions: [(String, String)] = [("Question 1", "a"),
+                                         ("Question 2", "a"),
+                                         ("Question 3", "a"),
+                                         ("Question 4", "a"),
+                                         ("Question 5", "a"),
+                                         ("Question 6", "a"),
+                                         ("Question 7", "a"),
+                                         ("Question 8", "a")
+                                        ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        questionLabel.text = questions[0].0
+        
     }
 
     override func didReceiveMemoryWarning() {
